@@ -1,0 +1,61 @@
+Dynamic Form Building Website using Django
+
+Key Features:
+Form Creation (Admin):
+
+Admin users can create unlimited forms.
+Each form can have up to 100 questions.
+Admins can choose from various question types (e.g., Text, Dropdown, Checkbox).
+Admins can configure question options (for Dropdown/Checkbox questions).
+Admins can order questions within the form.
+Form Submission (End User):
+
+End users can submit responses to forms anonymously.
+Users can submit responses an unlimited number of times.
+Analytics:
+
+Admins can view analytics for each form:
+Text Field: Distribution of the top 5 most common words.
+Checkbox: Distribution of the top 5 option combinations.
+Dropdown: Distribution of the top 5 selected options.
+Question Types:
+
+Text: Open-ended text input.
+Dropdown: Single-choice from predefined options.
+Checkbox: Multiple-choice from predefined options.
+Future Enhancements: Ranking, Linear Scale, Date Picker, Time Picker, File Upload, Matrix/Grid, Image Choice, Slider, Signature Capture, Color Picker, Geolocation, Percentage Allocation.
+Admin Panel:
+
+Django’s built-in admin panel is used for managing forms and questions.
+
+Further Modifications:
+Question Types (Future Enhancements):
+
+Add additional question types like Ranking, Linear Scale, Date Picker, File Upload, Image Choice, etc., as per the requirements.
+Form Validation:
+
+Implement validation for form fields (e.g., required fields, length constraints, etc.).
+Styling & UI Enhancements:
+
+Improve the front-end design using CSS frameworks like Bootstrap or Tailwind CSS.
+Implement JavaScript for dynamic form behavior (e.g., conditional questions, real-time validation).
+Analytics Enhancements:
+
+Improve analytics by supporting more complex question types and aggregating responses in different ways.
+Implement graphical representation of analytics (e.g., pie charts, bar graphs) using JavaScript libraries like Chart.js or D3.js.
+User Authentication:
+
+Allow users to authenticate before submitting responses to track who submitted the responses.
+Provide an option for users to save progress and complete the form later.
+Export Responses:
+
+Implement functionality to export form responses to CSV, Excel, or PDF formats.
+API for Forms:
+
+Create a REST API using Django REST Framework to allow external applications to fetch, submit, and view form responses.
+Deploy the Application:
+
+Deploy the application to a production server using platforms like Heroku, AWS, or DigitalOcean.
+Testing:
+
+Add unit tests and functional tests to ensure the stability and correctness of the application.
