@@ -1,0 +1,10 @@
+{% extends 'builder/base.html' %}
+{% block content %}
+<h2>Analytics for {{ form_instance.name }}</h2>
+<ul>
+    {% for question, data in analytics_data.items %}
+        <li>{{ question }}: {{ data }}</li>
+    {% endfor %}
+</ul>
+<a href="/">Back to Home</a>
+{% endblock %}

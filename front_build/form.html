@@ -1,0 +1,10 @@
+{% extends 'builder/base.html' %}
+{% block content %}
+<h2>{{ form_instance.name }}</h2>
+<p>{{ form_instance.description }}</p>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}
